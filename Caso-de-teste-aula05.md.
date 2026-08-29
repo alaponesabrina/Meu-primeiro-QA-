@@ -1,0 +1,17 @@
+**ID:** CT-01
+**Título:** Validar pagamento com saldo insuficiente
+**Pré-condição:** Usuário logado com saldo de R$50
+**Passos:**
+1. Adicionar produto de R$55 ao carrinho
+2. Ir para checkout e selecionar "saldo em conta"
+3. Clicar em Confirmar pagamento
+**Resultado Esperado:** Sistema bloqueia e exibe "Saldo insuficiente"
+
+**ID** CT-02
+*Título** Validar pagamento com saldo extato
+**Pré-condição:** Usuário logado com saldo de R$55,00
+**Passos:** 
+1. Adicionar o produto de R$55,00 no carrinho 
+2. Ir para checkout e selecionar "saldo em conta"
+3. Clicar em confirmar pagamento 
+**Resultado esperado:** Sistema aprova o pagamento, exige mensagem de sucesso e o saldo passa a ser R$0,00
